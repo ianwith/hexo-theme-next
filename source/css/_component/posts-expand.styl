@@ -43,13 +43,13 @@
     left: 0;
     background-color: #000;
     visibility: hidden;
-    transform: scaleX(0);
+    opacity: 0;
     the-transition();
   }
 
   &:hover::before {
-    visibility: visible
-    transform: scaleX(1);
+    visibility: visible;
+    opacity: 1;
   }
 }
 
